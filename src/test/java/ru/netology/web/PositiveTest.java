@@ -39,7 +39,7 @@ public class PositiveTest {
     }
 
     @Test
-    public void PositiveTest() {
+    public void positiveTest() {
         driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Иван Иванович Петров");
         driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+79856545344");
         driver.findElement(By.cssSelector("[data-test-id=agreement]")).click();
